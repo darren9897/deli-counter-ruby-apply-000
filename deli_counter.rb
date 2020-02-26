@@ -40,7 +40,6 @@ def line(katz_deli)
       sent << " #{idx + 1}. #{name}"
     end
     puts sent
-
   end
 end
 
