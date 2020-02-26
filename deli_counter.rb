@@ -39,8 +39,9 @@ def line(katz_deli)
     katz_deli.each_with_index do |name, idx|
       sent << " #{idx + 1}. #{name}"
     end
+    puts sent
+
   end
-  puts sent
 end
 
 def take_a_number(katz_deli, name)
